@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import styles from './index.module.css';
 
@@ -12,6 +13,12 @@ export function Index() {
     <div className={styles.page}>
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
+      <Image
+        src="https://mys3url.amazonaws.com/etcetc"
+        width={200}
+        height={200}
+      />
+
       <div className="flex github-star-container">
         <a
           href="https://github.com/nrwl/nx"
