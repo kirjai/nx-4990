@@ -14,7 +14,7 @@ export function Index() {
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <Image
-        src="https://mys3url.amazonaws.com/etcetc"
+        src="https://buttercms.com/static/images/tech_banners/Nextjs.b8a717322c08.png"
         width={200}
         height={200}
       />
